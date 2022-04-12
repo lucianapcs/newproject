@@ -1,0 +1,36 @@
+/*/HEADER/*/
+body {
+    margin: 0;
+ 
+}
+
+
+header {
+    background-color: rgb(159, 199, 159);
+    font-size:20px;
+    margin: 0;
+    height:100px;
+    display: flex;
+    
+}
+
+.logo {
+  
+    height: 100px;
+    width: 100px;
+    }
+
+.links {
+    border: solid 5px red;
+    width: 3000px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 60px;
+    padding-right:230px;
+    text-decoration: none;
+   }
+
+   a {
+    text-decoration: none;
+   }
