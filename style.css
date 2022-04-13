@@ -6,7 +6,7 @@ body {
 
 
 header {
-    background-color: rgb(159, 199, 159);
+    background-color: rgb(39, 95, 39);
     font-size:20px;
     margin: 0;
     height:100px;
@@ -16,8 +16,8 @@ header {
 
 .logo {
   
-    height: 100px;
-    width: 100px;
+    height: 120px;
+    width: 120px;
     }
 
 .links {
@@ -33,4 +33,52 @@ header {
 
    a {
     text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px ;
    }
+
+   /*/END OF HEADER/*/
+
+   /*/where is your destination/*/ 
+
+   .destination {
+    background-color:  rgb(39, 95, 39);
+    display: flex;
+    height: 400px;
+    color: white;
+   }
+
+   .main {
+       height:300px;
+       width: 500px;
+       padding: 40px;
+       padding-right: 300px;
+       }
+
+   .text {
+    margin: 30px;
+    height: 400px;
+   
+    width: 1300px;
+        
+   }
+
+   .title {
+      
+       border: 5px solid black;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 50px;
+       width: 450px;
+       padding-left: 300px;
+   }
+
+   .text2 {
+       border: 5px solid pink;
+       height: 150px;
+       width: 600px;
+       padding-left: 300px;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       font-size: 20x;
+          }
+       
